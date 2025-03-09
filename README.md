@@ -10,5 +10,5 @@ For this transaction, you will need a <a href="https://blockfrost.io/" target="_
 <br> Learn more about registration and where to find your Blockfrost token here: https://blockfrost.dev/overview/getting-started
 
 # Installation
-To clone the repo, use the following command:
+To clone the repository, use the following command:
 <code>git clone https://github.com/opacular/dualtransaction.git</code>
