@@ -1,0 +1,18 @@
+{
+  "name": "lucid-beevolution",
+  "version": "1.0.0",
+  "description": "Building a lucid-evolution transaction that delegates to a DRep and sends ADA in one go.",
+  "main": "index.js",
+  "scripts": {
+    "mainnet": "NODE_ENV=mainnet node SendAndDelegate.js",
+    "preprod": "NODE_ENV=preprod node SendAndDelegate.js"
+  },
+  "keywords": [],
+  "author": "Mad Orkestra",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@lucid-evolution/lucid": "^0.4.23",
+    "dotenv": "^16.4.7"
+  }
+}
