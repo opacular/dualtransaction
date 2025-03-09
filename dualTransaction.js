@@ -14,17 +14,17 @@ if(!process.env.API_NETWORK) {
 }
 
 if (!process.env.API_URL) {
-  console.log("URL not set");
+  console.log("API_URL not set");
   process.exit(1);
 }
 
 if (!process.env.BLOCKFROST_TOKEN) {
-  console.log("Blockfrost token not set");
+  console.log("BLOCKFROST_TOKEN not set");
   process.exit(1);
 }
 
 if (!process.env.SEEDPHRASE) {
-  console.log("Seedphrase not set");
+  console.log("SEEDPHRASE not set");
   process.exit(1);
 }
 
@@ -70,10 +70,10 @@ try {
   // Submit the transactions
   txHash = await signedTx.submit();
 } catch (e) {
-  // error handling
+  // Error handling
   console.log("Error submitting tx:", e);
 }
 
-// log the transaction hash if successful
+// Log the transaction hash if successful
 if (txHash) console.log("Tx submitted:", txHash);
 else console.log("Something went wrong :(");

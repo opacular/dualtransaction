@@ -4,8 +4,8 @@
   "description": "Building a lucid-evolution transaction that delegates to a DRep and sends ADA in one go.",
   "main": "index.js",
   "scripts": {
-    "mainnet": "NODE_ENV=mainnet node SendAndDelegate.js",
-    "preprod": "NODE_ENV=preprod node SendAndDelegate.js"
+    "mainnet": "NODE_ENV=mainnet node dualTransaction.js",
+    "preprod": "NODE_ENV=preprod node dualTransaction.js"
   },
   "keywords": [],
   "author": "Mad Orkestra",
