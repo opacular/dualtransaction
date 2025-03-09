@@ -2,7 +2,7 @@
 This transaction will send ADA and delegate to a DRep at the same time. 
 
 # Getting started 
-<h2>Lucid Evolution</h2>
+<h3>Lucid Evolution</h3>
 <a href="https://anastasia-labs.github.io/lucid-evolution/install">Lucid Evolution</a> is an off-chain framework for Cardano. This is installed when ... . You can also manually install it with the command: <code>npm i @lucid-evolution/lucid </code>
 
 <h3>Blockfrost</h3>
@@ -10,3 +10,5 @@ For this transaction, you will need a <a href="https://blockfrost.io/" target="_
 <br> Learn more about registration and where to find your Blockfrost token here: https://blockfrost.dev/overview/getting-started
 
 # Installation
+To clone the repo, use the following command:
+<code>git clone https://github.com/opacular/dualtransaction.git</code>
