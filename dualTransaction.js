@@ -7,7 +7,7 @@ dotenv.config({
   path: process.env.NODE_ENV ? ".env." + process.env.NODE_ENV : ".env.example",
 });
 
-console.log("what", process.env.API_NETWORK);
+console.log("Network:", process.env.API_NETWORK); // use npm run preprod/mainnet to switch networks
 if(!process.env.API_NETWORK) {
   console.log("API_NETWORK not set");
   process.exit(1);
